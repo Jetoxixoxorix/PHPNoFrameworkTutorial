@@ -1,0 +1,21 @@
+{
+    "name": "Php tutorial",
+    "description": "Your project description",
+    "keywords": ["php", "tutorial"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jetoxixoxorix",
+            "email": "technoamfa13@gmail.com",
+            "role": "Creator / Main Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Example\\": "src/"
+        }
+    }
+}
